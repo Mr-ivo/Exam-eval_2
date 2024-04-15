@@ -1,0 +1,58 @@
+.header {
+    margin-left: 35%;
+}
+.login {
+    margin-left: 15%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    border-style: none;
+    color: #fff;
+
+
+}
+
+.login:hover {
+    background: red;
+    transition: 0.5s;
+}
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    justify-content: center;
+    align-items: center; 
+    grid-gap: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+.card {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box;
+gap: 10px;
+padding: 20px;
+box-shadow: 0px 0px 5px gray;
+
+}
+.images {
+height: 300px;
+
+}
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+background-color: blue;
+border: none;
+color: #fff;
+text-decoration: none;
+}
